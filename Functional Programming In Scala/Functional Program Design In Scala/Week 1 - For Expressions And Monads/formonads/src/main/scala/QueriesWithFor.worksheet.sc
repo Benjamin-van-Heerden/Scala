@@ -31,6 +31,9 @@ for
     if a.startsWith("Bird")
 yield b.title
 
+
+// how this query is decomposed by the compiler
+
 books.flatMap(b => 
     b.authors.withFilter(a => 
         a.startsWith("Bird")).map(a => b.title))

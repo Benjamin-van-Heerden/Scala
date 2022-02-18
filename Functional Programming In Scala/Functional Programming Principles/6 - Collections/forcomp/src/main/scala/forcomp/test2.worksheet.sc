@@ -190,6 +190,6 @@ object Anagrams extends AnagramsInterface:
 import Anagrams.*
 
 
-val sentence = List("Yes", "man")
+val sentence = List("Yes", "man", "this")
 
 sentenceAnagrams(sentence)
